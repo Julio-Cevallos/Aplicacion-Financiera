@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">menuprobando</string>
+
+    <string-array name="tipo_categoria_array">
+        <item>Ingreso</item>
+        <item>Gasto</item>
+    </string-array>
+    <string-array name="tipos_acreedores">
+        <item>Persona</item>
+        <item>Banco</item>
+    </string-array>
+</resources>

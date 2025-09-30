@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cédula" />
+
+    <EditText
+        android:id="@+id/editTextCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción" />
+
+    <EditText
+        android:id="@+id/editTextFechaPagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Pago" />
+
+    <EditText
+        android:id="@+id/editTextCuotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Cuotas"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextFechaInicioPago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Inicio de Pago" />
+
+    <EditText
+        android:id="@+id/editTextFechaFinPago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Fin de Pago" />
+
+    <EditText
+        android:id="@+id/editTextInteres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interés"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>

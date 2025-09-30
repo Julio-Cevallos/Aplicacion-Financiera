@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/cedulaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cédula del deudor" />
+
+    <EditText
+        android:id="@+id/cantidadEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad del préstamo"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/descripcionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción del préstamo" />
+
+    <EditText
+        android:id="@+id/fechaPrestamoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha del préstamo (dd/mm/yyyy)" />
+
+    <EditText
+        android:id="@+id/cuotasEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de cuotas"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/fechaInicioEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de inicio (dd/mm/yyyy)" />
+
+    <EditText
+        android:id="@+id/fechaFinEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de finalización (dd/mm/yyyy)" />
+</LinearLayout>

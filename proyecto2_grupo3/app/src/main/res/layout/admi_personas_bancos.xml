@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <!-- Contenido de la pestaña 1 -->
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="Agregar Persona"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                        <EditText
+                            android:id="@+id/edit_text_cedula"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Cédula"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="8dp" />
+                        <EditText
+                            android:id="@+id/edit_text_nombre_persona"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Nombre"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="8dp" />
+                        <EditText
+                            android:id="@+id/edit_text_telefono"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Teléfono"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="8dp" />
+                        <EditText
+                            android:id="@+id/edit_text_correo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Correo"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="8dp" />
+
+                        <Button
+                            android:id="@+id/button_agregar_persona"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:textSize="14sp"
+                            android:text="Agregar Persona" />
+                        <TextView
+                            android:id="@+id/textVieweliminar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Eliminar Persona"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="8dp"/>
+                        <EditText
+                            android:id="@+id/edit_text_cedula2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Cédula"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="8dp" />
+
+                        <Button
+                            android:id="@+id/button_eliminar_persona"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="14dp"
+                            android:text="Eliminar Persona" />
+                        <TextView
+                            android:id="@+id/text_view_mensaje1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/text_view_personas_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="Personas"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <ListView
+                            android:id="@+id/list_view_personas"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="16dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <!-- Contenido de la pestaña 2 -->
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="Agregar Banco"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                        <EditText
+                            android:id="@+id/edit_text_ruc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Ruc"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="8dp" />
+                        <EditText
+                            android:id="@+id/edit_text_nombre_banco"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Nombre de banco"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="8dp" />
+                        <EditText
+                            android:id="@+id/edit_text_telefono2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Teléfono"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="8dp" />
+                        <EditText
+                            android:id="@+id/edit_text_correo2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Correo"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="8dp" />
+                        <EditText
+                            android:id="@+id/edit_text_oficialC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Oficial Credito"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="8dp" />
+
+                        <Button
+                            android:id="@+id/button_agregar_banco"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:textSize="14sp"
+                            android:text="Agregar Banco" />
+                        <TextView
+                            android:id="@+id/textVieweliminar2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Eliminar Banco"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="3dp"/>
+                        <EditText
+                            android:id="@+id/edit_text_cedula4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Cédula"
+                            android:textSize="14sp"
+                            android:layout_marginBottom="8dp" />
+
+                        <Button
+                            android:id="@+id/button_eliminar_banco"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="14dp"
+                            android:text="Eliminar Banco" />
+                        <TextView
+                            android:id="@+id/text_view_mensaje3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/text_view_bancos_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="Bancos"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <ListView
+                            android:id="@+id/list_view_bancos"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="16dp"/>
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </TabHost>
+
+</LinearLayout>

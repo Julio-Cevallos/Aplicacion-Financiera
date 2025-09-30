@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/aaaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar cuenta Bancaria"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ruc o Nombre"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/buttonChangeToEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar de nuevo"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/listViewNames"
+            android:layout_width="match_parent"
+            android:layout_height="87dp" />
+
+        <EditText
+            android:id="@+id/numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="numero"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de cuenta"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinnerAccountType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/fechaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de apertura"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/saldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Saldo"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/interes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor de interes ganado en el mes"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/fechaFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de cierre"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/fechaz2"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Codigo para:"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/eliminar"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Eliminar"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/cerrar"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:text="Cerrar"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/fechazz"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Ingrese fecha de cierre:"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/cuentas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuentas Bancarias" />
+
+        <ListView
+            android:id="@+id/cuentas2"
+            android:layout_width="match_parent"
+            android:layout_height="146dp" />
+    </LinearLayout>
+</ScrollView>

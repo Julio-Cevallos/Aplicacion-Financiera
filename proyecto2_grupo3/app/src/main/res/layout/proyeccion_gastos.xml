@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROYECCION DE GASTOS DE LOS ULTIMOS 3 MESES" />
+
+    <Button
+        android:id="@+id/buttonProyeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proyeccion" />
+
+    <TextView
+        android:id="@+id/mes1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/mesLista1"
+        android:layout_width="match_parent"
+        android:layout_height="117dp" />
+
+    <TextView
+        android:id="@+id/mes2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/mesLista2"
+        android:layout_width="match_parent"
+        android:layout_height="122dp" />
+
+    <TextView
+        android:id="@+id/mes3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/mesLista3"
+        android:layout_width="match_parent"
+        android:layout_height="113dp" />
+
+    <TextView
+        android:id="@+id/mes4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/proyeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+</LinearLayout>

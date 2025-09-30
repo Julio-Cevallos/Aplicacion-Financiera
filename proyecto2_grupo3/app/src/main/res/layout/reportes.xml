@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/tab1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="394dp"
+            android:layout_height="669dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Switch
+                        android:id="@+id/sitch"
+                        android:layout_width="191dp"
+                        android:layout_height="wrap_content"
+                        android:text="Reporte Ingreso" />
+
+                    <TextView
+                        android:id="@+id/Gasto"
+                        android:layout_width="203dp"
+                        android:layout_height="wrap_content"
+                        android:text="Reporte Gasto" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/mesActual"
+                        android:layout_width="165dp"
+                        android:layout_height="match_parent"
+                        android:text="Mes Actual" />
+
+                    <Button
+                        android:id="@+id/ano"
+                        android:layout_width="162dp"
+                        android:layout_height="match_parent"
+                        android:text="Año" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textsincontext11"
+                        android:layout_width="166dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textsincontext12"
+                        android:layout_width="165dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_view_listames1"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textsincontext21"
+                        android:layout_width="166dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textsincontext22"
+                        android:layout_width="165dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_view_listames2"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textsincontext31"
+                        android:layout_width="166dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textsincontext32"
+                        android:layout_width="165dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_view_listames3"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textsincontext41"
+                        android:layout_width="166dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textsincontext42"
+                        android:layout_width="165dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_view_listames4"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textsincontext51"
+                        android:layout_width="166dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textsincontext52"
+                        android:layout_width="165dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_view_listames5"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textsincontext61"
+                        android:layout_width="166dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textsincontext62"
+                        android:layout_width="165dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_view_listames6"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textsincontext71"
+                        android:layout_width="166dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textsincontext72"
+                        android:layout_width="165dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_view_listames7"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textsincontext81"
+                        android:layout_width="166dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textsincontext82"
+                        android:layout_width="165dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_view_listames8"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp" />
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textsincontext91"
+                        android:layout_width="166dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textsincontext92"
+                        android:layout_width="165dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_view_listames9"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp" />
+
+                <TextView
+                    android:id="@+id/textView93"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textsincontext101"
+                        android:layout_width="166dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textsincontext102"
+                        android:layout_width="165dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_view_listames10"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp" />
+
+                <TextView
+                    android:id="@+id/textView103"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textsincontext111"
+                        android:layout_width="166dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textsincontext112"
+                        android:layout_width="165dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_view_listames11"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp" />
+
+                <TextView
+                    android:id="@+id/textView113"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textsincontext121"
+                        android:layout_width="166dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textsincontext122"
+                        android:layout_width="165dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/list_view_listames12"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp" />
+
+                <TextView
+                    android:id="@+id/textView123"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textViewTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
